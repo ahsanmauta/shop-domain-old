@@ -1,0 +1,47 @@
+[03-Aug-2024 16:14:17 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/composer/platform_check.php on line 24
+[03-Aug-2024 16:14:20 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/composer/platform_check.php on line 24
+[03-Aug-2024 16:18:41 Asia/Jakarta] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/composer/platform_check.php on line 24
+[05-Aug-2024 09:59:29 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\authentications\Auction, because the name is already in use in /home/codf8823/public_html/afterdom.codingku2024.my.id/app/Http/Controllers/users/Auction.php on line 11
+[08-Aug-2024 01:39:34 UTC] PHP Fatal error:  Can't use method return value in write context in /home/codf8823/public_html/afterdom.codingku2024.my.id/app/Http/Controllers/authentications/LoginBasic.php on line 79
+[08-Aug-2024 01:51:42 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/codf8823/public_html/afterdom.codingku2024.my.id/app/Http/Controllers/authentications/LoginBasic.php on line 75
+[08-Aug-2024 02:02:07 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/codf8823/public_html/afterdom.codingku2024.my.id/storage/framework/views/110d6c3ec0efee22438cabdd26d7edb0.php on line 78
+[08-Aug-2024 07:48:09 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/codf8823/public_html/afterdom.codingku2024.my.id/app/Http/Controllers/users/FBids.php on line 305
+[08-Aug-2024 08:41:09 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/codf8823/public_html/afterdom.codingku2024.my.id/app/Http/Controllers/users/FBids.php on line 381
+[10-Aug-2024 07:06:10 UTC] PHP Fatal error:  Trait "App\Models\ValidateRequests" not found in /home/codf8823/public_html/afterdom.codingku2024.my.id/app/Models/User.php on line 10
+[10-Aug-2024 07:06:42 UTC] PHP Fatal error:  Trait "App\Models\ValidateRequests" not found in /home/codf8823/public_html/afterdom.codingku2024.my.id/app/Models/User.php on line 11
+[17-Aug-2024 08:05:04 Asia/Jakarta] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:354
+Stack trace:
+#0 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(907): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(882): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(807): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(698): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(587): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ParseError))
+#6 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ParseError))
+#7 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ParseError))
+#8 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 /home/codf8823/public_html/afterdom.codingku2024.my.id/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#10 {main}
+  thrown in /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 354
+[17-Aug-2024 08:05:07 Asia/Jakarta] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:354
+Stack trace:
+#0 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(907): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(882): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(807): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(698): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(587): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(ParseError))
+#6 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ParseError))
+#7 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ParseError))
+#8 /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 /home/codf8823/public_html/afterdom.codingku2024.my.id/public/index.php(17): Illuminate\Foundation\Application->handleRequest(Object(Illuminate\Http\Request))
+#10 {main}
+  thrown in /home/codf8823/public_html/afterdom.codingku2024.my.id/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 354
+[19-Aug-2024 08:53:51 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function handleRequest() on int in /home/codf8823/public_html/afterdom.codingku2024.my.id/public/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/codf8823/public_html/afterdom.codingku2024.my.id/public/index.php on line 17
+[19-Aug-2024 08:54:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function handleRequest() on int in /home/codf8823/public_html/afterdom.codingku2024.my.id/public/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/codf8823/public_html/afterdom.codingku2024.my.id/public/index.php on line 17
