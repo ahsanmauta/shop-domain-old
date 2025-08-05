@@ -1,0 +1,8 @@
+[03-Aug-2024 16:08:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function php_info() in /home/codf8823/public_html/afterdom.codingku2024.my.id/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/codf8823/public_html/afterdom.codingku2024.my.id/index.php on line 2
+[03-Aug-2024 16:09:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function php_info() in /home/codf8823/public_html/afterdom.codingku2024.my.id/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/codf8823/public_html/afterdom.codingku2024.my.id/index.php on line 2
