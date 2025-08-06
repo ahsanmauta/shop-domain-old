@@ -1,0 +1,83 @@
+@php
+$customizerHidden = 'customizer-hide';
+@endphp
+
+@extends('layouts/layoutMaster')
+
+@section('title', 'Register Basic - Pages')
+
+@section('vendor-style')
+@vite([
+  'resources/assets/vendor/libs/@form-validation/form-validation.scss'
+])
+@endsection
+
+@section('page-style')
+@vite([
+  'resources/assets/vendor/scss/pages/page-auth.scss'
+])
+@endsection
+
+@section('vendor-script')
+@vite([
+  'resources/assets/vendor/libs/@form-validation/popular.js',
+  'resources/assets/vendor/libs/@form-validation/bootstrap5.js',
+  'resources/assets/vendor/libs/@form-validation/auto-focus.js'
+])
+@endsection
+
+@section('page-script')
+@vite([
+  'resources/assets/js/pages-auth.js'
+])
+@endsection
+
+@section('content')
+
+<!-- Multi Column with Form Separator -->
+<div class="card mb-6">
+  <form class="card-body" action="#" method="POST" enctype="multipart/form-data" >
+
+
+          <h4 class="mb-1">Deposit Show</h4>
+    
+    <div class="row g-6">
+      <div class="col-md-12">
+        <label class="form-label" for="multicol-username">Tanggal</label>
+        <input type="text" id="tanggal" name="tanggal" class="form-control" placeholder="" value="{{$deposit->tanggal}}" readonly />
+      </div>
+	  <div class="col-md-12">
+        <label class="form-label" for="multicol-username">Tipe Bayar</label>
+        <input type="text" id="tipebayar" name="tipebayar" class="form-control" placeholder="" value="{{$deposit->tipebayar}}" readonly />
+      </div>
+	  <div class="col-md-12">
+        <label class="form-label" for="multicol-username">Amount</label>
+		<div class="input-group">
+		  <span class="input-group-text">$</span>
+          <input type="text" id="amount" name="amount" class="form-control" placeholder="" value="{{$deposit->amount}}" />
+		</div>
+      </div>
+	  <div class="col-md-12">
+        <label class="form-label" for="multicol-username">Kurs</label>
+        <input type="text" id="kurs" name="kurs" class="form-control" placeholder="" value="{{$deposit->kurs}}" />
+      </div>
+	  <div class="col-md-12">
+        <label class="form-label" for="multicol-phone">User</label>
+        <input type="text" id="name" name="name" value="{{$deposit->firstname.' '.$deposit->lastname}}" class="form-control phone-mask" placeholder="" aria-label="" />
+      </div>
+	  <div class="col-md-12">
+        <label class="form-label" for="multicol-first-name">Reference</label>
+        <input type="text" id="reference" name="reference" value="{{$deposit->reference}}" class="form-control" placeholder="" />
+      </div>
+	  <div class="col-md-12">
+        <label class="form-label" for="multicol-first-name">Note</label>
+        <input type="text" id="note" name="note" value="{{$deposit->note}}" class="form-control" placeholder="" />
+      </div>
+    </div>
+
+
+  </form>
+</div>
+
+         
+@endsection
