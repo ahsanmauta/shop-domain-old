@@ -1,0 +1,121 @@
+{
+  "menu": [
+    {
+      "url": "/admin",
+      "name": "Home",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "pages-home"
+    },
+	{
+      "name": "Manage Users",
+      "icon": "menu-icon tf-icons ti ti-users",
+      "slug": "user",
+      "submenu": [
+        {
+          "url": "/admin/adminuser/active",
+          "name": "Active Users",
+          "slug": "app-user-active"
+        },
+        {
+          "url": "/admin/adminuser",
+          "name": "All Users",
+          "slug": "app-user-list"
+        },
+        {
+          "url": "/admin/sendemail",
+          "name": "Send Notification",
+          "slug": "app-user-send"
+        }
+      ]
+    },
+	{
+      "name": "Manage Auctions",
+      "icon": "menu-icon tf-icons ti-shopping-cart",
+      "slug": "auction",
+      "submenu": [
+        {
+          "url": "/admin/adminauction",
+          "name": "All Auctions",
+          "slug": "app-auction-list"
+        },
+		{
+          "url": "/admin/auctionbid",
+          "name": "Bid Auctions",
+          "slug": "app-auction-win"
+        },
+        {
+          "url": "/admin/auctionwin",
+          "name": "Win Auctions",
+          "slug": "app-auction-win"
+        },
+		{
+          "url": "/admin/auctionpaid",
+          "name": "Paid Auctions",
+          "slug": "app-auction-paid"
+        }
+      ]
+    },
+	{
+      "name": "Deposits",
+      "icon": "menu-icon tf-icons  ti ti-file-dollar",
+      "slug": "deposit",
+      "submenu": [
+        {
+          "url": "/admin/admindeposit",
+          "name": "All Deposits",
+          "slug": "app-deposit-list"
+        },
+        {
+          "url": "/admin/admindeposit/duitku",
+          "name": "Duitku Deposits",
+          "slug": "app-deposit-duitku"
+        },
+        {
+          "url": "/admin/admindeposit/paypal",
+          "name": "Paypal Deposits",
+          "slug": "app-deposit-paypal"
+        }
+      ]
+    },
+	{
+      "name": "Payments",
+      "icon": "menu-icon tf-icons ti ti-file-dollar",
+      "slug": "payment",
+      "submenu": [
+        {
+          "url": "/admin/adminpayment",
+          "name": "All Payments",
+          "slug": "app-payment-list"
+        },
+        {
+          "url": "/admin/adminpayment/duitku",
+          "name": "Duitku Payments",
+          "slug": "app-payment-duitku"
+        },
+        {
+          "url": "/admin/adminpayment/paypal",
+          "name": "Paypal Payments",
+          "slug": "app-payment-paypal"
+        }
+      ]
+    },
+	{
+      "name": "Reports",
+      "icon": "menu-icon tf-icons ti ti-file",
+      "slug": "report",
+      "submenu": [
+        {
+          "url": "/admin/histlogin",
+          "name": "Login History",
+          "slug": "app-report-login"
+        }
+      ]
+    },
+    {
+      "url": "/admin/adminsetting",
+      "icon": "menu-icon tf-icons ti ti-settings",
+      "name": "System Setting",
+      "slug": "system-setting"
+    }
+  ]
+}
